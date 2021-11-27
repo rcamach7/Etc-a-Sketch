@@ -1,0 +1,33 @@
+/* Always Maintain our container a square so grid boxes aren't worped */
+.mainContainer {
+    background: #000;
+    width: 50vw;
+    height: 50vw; 
+}
+
+/* Row Box */
+.rowBox {
+    display: flex;
+    width: 100%;
+    height: 50px;
+
+    border: solid pink 2px;
+    gap: 1px;
+}
+
+.col {
+    flex: 1;
+
+    border: solid red 2px;
+    background-color: black;
+}
+
+.hovered {
+    background-color: goldenrod !important;
+}
+
+
+
+
+
+
