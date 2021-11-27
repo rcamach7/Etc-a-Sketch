@@ -14,12 +14,19 @@ button {
     background-color: gold;
 }
 
+body {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+
+}
+
 
 /* Always Maintain our container a square so grid boxes aren't worped */
-.mainContainer {
-    background: #000;
-    width: 50vw;
-    height: 50vw; 
+#mainContainer {
+    width: 1000px;
+    height: 1000px; 
+
 }
 
 /* Row Box */
